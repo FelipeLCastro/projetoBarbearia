@@ -1,0 +1,21 @@
+barbearia-assinatura/
+├── pom.xml
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/barbearia/assinatura/
+│       │       ├── BarbeariaAssinaturaApplication.java
+│       │       ├── controller/
+│       │       │   ├── UsuarioController.java
+│       │       │   └── AgendamentoController.java
+│       │       ├── model/
+│       │       │   ├── Usuario.java
+│       │       │   ├── PlanoAssinatura.java
+│       │       │   └── Agendamento.java
+│       │       └── repository/
+│       │           ├── UsuarioRepository.java
+│       │           ├── PlanoAssinaturaRepository.java
+│       │           └── AgendamentoRepository.java
+│       └── resources/
+│           ├── application.properties
+│           └── static/
